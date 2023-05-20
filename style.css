@@ -1,0 +1,104 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #343a40;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: aqua;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+#thefirsticon {
+    font-size: 26px;
+    color: rgb(255, 166, 0);
+    text-shadow: rgba(255, 136, 0, 0.849) 0px 8px 24px;
+}
+
+#thethirdicon {
+    font-size: 26px;
+    color: rgb(0, 208, 255);
+    text-shadow: rgba(0, 195, 255, 0.777) 0px 8px 24px;
+}
+
+#thesecondicon {
+    font-size: 26px;
+    color: rgba(128, 255, 1, 0.899);
+    text-shadow: rgba(128, 255, 0, 0.849) 0px 8px 24px;
+}
+
+#thebox {
+    border: 1px solid rgb(0, 213, 255);
+}
+
+#modalTour {
+    color: white;
+}
+
+#thebtn {
+    color: black;
+    background-color: rgba(0, 221, 255, 0.864);
+}
+
+#sunriseicon {
+    font-size: 26px;
+    color: orange;
+    text-shadow: rgba(255, 136, 0, 0.849) 0px 8px 24px;
+}
+
+#sunseticon {
+    font-size: 26px;
+    color: aqua;
+    text-shadow: rgba(0, 255, 234, 0.582) 0px 8px 24px;
+}
+
+.google{
+   border-top-left-radius: 32px !important;
+   border-bottom-left-radius: 32px !important;
+   background-color: #fff;
+}
+
+.input-group-prepend {
+   margin-right: -2px !important;
+}
+
+.input-group-append {
+   margin-left: -2px !important;
+}
+
+.form-control:focus {
+   color: #495057; 
+   background-color: #fff;
+   border-color: #ced4da;
+   outline: 0;
+   box-shadow: 0 0 0 0 !important;
+
+}
+
+.form-control{
+
+     border-right: 0 !important;
+     border-left: 0 !important;
+}
+
+.thecontainer:hover {
+    transition: 0.3s;
+    padding: 15px;
+}
+
+#theinput:hover{
+    transition: 0.6s;
+    box-shadow: rgba(0, 225, 255, 0.17) 0px 48px 100px 0px;
+}
